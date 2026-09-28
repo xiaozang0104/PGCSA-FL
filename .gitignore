@@ -1,0 +1,33 @@
+# ---- datasets (download separately, never commit) --------------------------
+MNIST/
+GTSRB/
+CIFAR-10/
+cifar-10-batches-py/
+*.gz
+*.zip
+
+# ---- experiment outputs ----------------------------------------------------
+results/
+figs/
+bench*.csv
+client_cost*.csv
+client_cost*.xlsx
+client_cost*.pdf
+client_cost*.png
+*.pdf
+*.png
+!figures/**
+
+# ---- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- environments / editors ------------------------------------------------
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store

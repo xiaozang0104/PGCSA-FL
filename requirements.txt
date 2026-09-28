@@ -1,0 +1,14 @@
+# PGCSA-FL — federated learning with compressed, differentially private and
+# Byzantine-robust updates.
+# Tested with Python 3.12 and CUDA 12.8 (CPU-only also works).
+
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+pandas==3.0.5
+matplotlib==3.10.9
+openpyxl==3.1.5
+pillow==12.2.0
+loguru==0.7.3
